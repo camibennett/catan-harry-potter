@@ -1,0 +1,29 @@
+.escoba-container {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    }
+    
+    .escoba-cuerpo {
+    position: absolute;
+    bottom: 0;
+    width: 30%;
+    height: 60%;
+    border: 2px solid brown;
+    border-radius: 10px;
+    background-color: brown;
+    transform: rotate(-30deg) skew(-30deg);
+    }
+    
+    .escoba-cerdas {
+    position: absolute;
+    bottom: 10%;
+    width: 50%;
+    height: 10%;
+    border: 2px solid brown;
+    border-radius: 10px;
+    background-color: brown;
+    transform: rotate(20deg) skew(-20deg);
+}
+  

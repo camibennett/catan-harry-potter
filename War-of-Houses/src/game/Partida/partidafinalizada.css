@@ -1,0 +1,44 @@
+.play-button {
+    padding: 10px 20px;
+    background: goldenrod;
+    transition: all 0.5s ease-in;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 1.2vw;
+    margin-top: 1vh;
+    justify-content: center;
+}
+
+.div-partidafinalizada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    text-align: justify;
+    gap: 30px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+
+.bg-container-partidafinalizada {
+    position: absolute;
+    width: 100%;
+    height: 100.5vh;
+    background-image: url("../../assets/img/about_us_background.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    z-index: -2;
+    opacity: 0.4;
+}
+
+.content-partidafinalizada {
+    width: 100%;
+    height: 90.5vh;
+}
+
+.carta-logo {
+    width: 230px;
+    height: 300px;
+}

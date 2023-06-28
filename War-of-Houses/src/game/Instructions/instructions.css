@@ -1,0 +1,473 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+/* 
+.content-instruction {
+    align-items: center;
+    align-content: center;
+    opacity: 0;
+}
+
+
+.next-button {
+    padding: 10px 20px;
+    background: goldenrod;
+    transition: all 0.5s ease-in;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 1.2vw;
+    margin-top: 5px;
+}
+
+.play-button:hover {
+    background-color: white;
+    color: goldenrod;
+}
+
+.name-instructions {
+    color: goldenrod;
+}
+
+.name-instructions:focus, .name-instructions:hover {
+    color: goldenrod;
+    text-shadow:
+     2px 3px 0 red,
+     4px 4px 0 green,  
+      6px 5px 0 blue,
+     8px  6px 0 yellow,
+      10px 7px 0 black;
+  }
+
+
+ */
+
+.name-instructions {
+    color: goldenrod;
+}
+
+.titulo-instrucciones {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.name-instructions:focus, .name-instructions:hover {
+    color: goldenrod;
+    text-shadow:
+     2px 3px 0 red,
+     4px 4px 0 green,  
+      6px 5px 0 blue,
+     8px  6px 0 yellow,
+      10px 7px 0 black;
+}
+
+.next-button {
+    padding: 10px 20px;
+    background: goldenrod;
+    transition: all 0.5s ease-in;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 1.2vw;
+    margin-top: 5px;
+}
+
+.back-button:hover {
+    background-color: white;
+    color: goldenrod;
+}
+
+.back-button {
+    padding: 10px 20px;
+    background: goldenrod;
+    transition: all 0.5s ease-in;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 1.2vw;
+    margin-top: 5px;
+}
+
+#boton-click {
+    font-family: Harry potter;
+}
+
+.next-button:hover {
+    background-color: white;
+    color: goldenrod;
+}
+
+.div-instrucciones {
+    display: flex;
+    align-items: center;
+}
+
+.div-instrucciones-board {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    position: relative; 
+}
+
+
+.div-cabana-roja-tablero {
+    z-index: 1;
+    position: absolute;
+    top: 42%;
+    left: 54%;
+    transform: translate(-42%, -54%);
+}
+
+.div-escoba-roja-tablero {
+    z-index: 1;
+    position: absolute;
+    top: 44%;
+    left: 54%;
+    transform: translate(-48%, -56%);
+    transform: rotate(16deg);
+}
+.escoba-roja-tablero {
+    width: 25px;
+}
+
+.div-cabana-azul-tablero {
+    z-index: 1;
+    position: absolute;
+    top: 42%;
+    left: 32%;
+    transform: translate(-42%, -54%);
+}
+
+.div-escoba-azul-tablero {
+    z-index: 1;
+    position: absolute;
+    top: 44%;
+    left: 32%;
+    transform: translate(-48%, -56%);
+    transform: rotate(16deg);
+}
+
+.div-instrucciones-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.div-botones{
+    display: flex;
+    justify-content: center;
+}
+
+.div-boton{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    align-self: center;
+}
+
+
+.imgs-instrucciones {
+    display: flex;
+    justify-content: center;
+}
+
+.img-instrucciones {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-self: center;
+}
+
+.div-cartas-escoba {
+    display: flex;
+    align-items: center;
+}
+
+.div-cartas-cabana {
+    display: flex;
+    align-items: center;
+}
+
+.div-cartas-castillo {
+    display: flex;
+    align-items: center;
+}
+
+.pieza {
+    padding: 100px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carta {
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carta-unicornio {
+    height: 150px;
+    width: 120px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.carta-serpiente {
+    height: 150px;
+    width: 120px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.carta-varita {
+    height: 150px;
+    width: 120px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.carta-phoenix {
+    height: 150px;
+    width: 120px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.carta-dragon {
+    height: 150px;
+    width: 120px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#text-instruction-4 {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+
+}
+
+.parrafo-instrucciones {
+    text-align: justify;
+}
+
+.play-button:hover {
+    background-color: white;
+    color: goldenrod;
+}
+
+.play-button {
+    padding: 10px 20px;
+    background: goldenrod;
+    transition: all 0.5s ease-in;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 1.2vw;
+    margin-top: 100px;
+}
+
+.content-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    text-align: justify;
+    gap: 30px;
+    margin-bottom: 180px;
+    padding-top: 100px;
+}
+
+.bg-container-5 {
+    position: absolute;
+    width: 100%;
+    height: 100.5vh;
+    background-image: url("../../assets/img/about_us_background.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    z-index: -2;
+    opacity: 0.4;
+}
+
+.content-instruction-5 {
+    width: 100%;
+    height: 100.5vh;
+}
+
+#escoba-roja-tablero-1 {
+    z-index: 1;
+    position: absolute;
+    top: 46%;
+    left: 58%;
+    transform: rotate(140deg);
+}
+
+#escoba-azul-tablero-1 {
+    z-index: 1;
+    position: absolute;
+    top: 46%;
+    left: 37%;
+    transform: rotate(140deg);
+}
+
+
+#cabana-roja-tablero-1 {
+    z-index: 1;
+    position: absolute;
+    top: 46%;
+    left: 63%;
+}
+
+#cabana-azul-tablero-1 {
+    z-index: 1;
+    position: absolute;
+    top: 46%;
+    left: 42%;
+}
+
+#castillo-azul-tablero-1 {
+    z-index: 1;
+    position: absolute;
+    top: 46%;
+    left: 42%;
+}
+
+#escoba-roja-tablero-2 {
+    z-index: 1;
+    position: absolute;
+    top: 52.5%;
+    left: 64%;
+    transform: rotate(11deg);
+}
+
+@media screen and (min-width: 550px) and (max-width: 950px) {
+    .div-cabana-roja-tablero {
+        z-index: 1;
+        position: absolute;
+        top: calc(42% + 0.5vw); 
+        left: 54%;
+        transform: translate(-42%, -54%);
+    }
+    .cabana-roja-tablero {
+        width: 3vw;
+    }
+
+    .escoba-roja-tablero {
+        width: 3vw;
+    }
+
+    .div-cabana-azul-tablero {
+        z-index: 1;
+        position: absolute;
+        top: calc(42% + 0.5vw); 
+        left: 32%;
+        transform: translate(-42%, -32%);
+    }
+    .cabana-azul-tablero {
+        width: 3vw;
+    }
+
+    .escoba-azul-tablero {
+        width: 3vw;
+    }
+}
+
+
+@media screen and (min-width: 650px) and (max-width: 720px) {
+    .div-cabana-roja-tablero {
+        z-index: 1;
+        position: absolute;
+        top: calc(42% + 1.0vw); 
+        left: 54%;
+        transform: translate(-42%, -54%);
+    }
+    .cabana-roja-tablero {
+        width: 3vw;
+    }
+
+    .escoba-roja-tablero {
+        width: 3vw;
+    }
+
+    .div-cabana-azul-tablero {
+        z-index: 1;
+        position: absolute;
+        top: calc(42% + 1.0vw); 
+        left: 32%;
+        transform: translate(-42%, -32%);
+    }
+    .cabana-azul-tablero {
+        width: 3vw;
+    }
+
+    .escoba-azul-tablero {
+        width: 3vw;
+    }
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 650px) {
+    .div-cabana-roja-tablero {
+        z-index: 1;
+        position: absolute;
+        top: calc(42% + 2vw); 
+        left: 54%;
+        transform: translate(-42%, -54%);
+    }
+    .cabana-roja-tablero {
+        width: 3vw;
+    }
+
+    .escoba-roja-tablero {
+        width: 3vw;
+    }
+
+    .div-cabana-azul-tablero {
+        z-index: 1;
+        position: absolute;
+        top: calc(42% + 2.0vw); 
+        left: 32%;
+        transform: translate(-42%, -32%);
+    }
+    .cabana-azul-tablero {
+        width: 3vw;
+    }
+
+    .escoba-azul-tablero {
+        width: 3vw;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .div-cabana-roja-tablero {
+        z-index: 1;
+        position: absolute;
+        top: calc(42% + 3vw); 
+        left: 54%;
+        transform: translate(-42%, -54%);
+    }
+    .cabana-roja-tablero {
+        width: 3vw;
+    }
+
+    .escoba-roja-tablero {
+        width: 3vw;
+    }
+
+    .div-cabana-azul-tablero {
+        z-index: 1;
+        position: absolute;
+        top: calc(42% + 3.0vw); 
+        left: 32%;
+        transform: translate(-42%, -32%);
+    }
+    .cabana-azul-tablero {
+        width: 3vw;
+    }
+
+    .escoba-azul-tablero {
+        width: 3vw;
+    }
+}

@@ -1,0 +1,115 @@
+
+.bg-container-about-us {
+    position: absolute;
+    width: 100%;
+    height: 117.5vh;
+    background: url('../../assets/img/pagina_principal_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    z-index: -2;
+    opacity: 0.4;
+}
+
+/* .content-about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    font-size: 0.9vw;
+    text-align: justify;
+    gap: 30px;
+    position: absolute;
+    width: 100%;
+    height: 95.5vh;
+    z-index: -2;
+
+} */
+
+.content-about-us {
+    width: 100%;
+    height: 105.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    font-size: 0.9vw;
+    text-align: justify;
+    gap: 30px;
+    z-index: -2;
+}
+
+.equipo {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.persona {
+    padding: 100px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line { 
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-color: white;
+}
+
+.foto-persona {
+    width: 230px;
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 100%;
+    padding-top: 10px;
+ }
+
+.button-about {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: goldenrod;
+    text-align: center;
+    cursor: pointer;
+    width: 120%;
+    border-radius: 10px;
+    font-family: Harry Potter;
+}
+  
+.button-about:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 850px) {
+
+    .bg-container-about-us {
+        height: 117.5vh;
+    }
+
+    .content-about-us {
+        font-size: 0.6em;
+    }
+
+    .foto-persona {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+        border-radius: 50%;
+        max-width: 100%;
+        padding-top: 10px;
+     }
+}
+
+
+#nombre {
+    color:  goldenrod;
+}

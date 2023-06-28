@@ -1,0 +1,67 @@
+.main-main-page {
+    width: 100%;
+    height: 1400px;
+}
+
+.bg-container-main-page {
+    position: absolute;
+    width: 100%;
+    height: 1500px;
+    background: url('../../assets/img/pagina_principal_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    z-index: -2;
+    opacity: 0.4;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1vw;
+    text-align: justify;
+    gap: 30px;
+}
+
+.content > p {
+    width: 50%;
+}
+
+.content > .tabla {
+    width: 50%;
+}
+
+.tabla {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+th {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid goldenrod;
+    background-color: goldenrod;
+    color: black;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid goldenrod;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+tr:hover {background-color: grey;}
+
+@media screen and (max-width: 850px) {
+
+    .bg-container-main-page {
+        height: 200.5vh;
+    }
+
+    .content {
+        font-size: 13px;
+    }
+}

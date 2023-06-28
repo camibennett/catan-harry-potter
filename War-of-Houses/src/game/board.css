@@ -1,0 +1,60 @@
+ 
+.hex {
+    background-image: url('./logo_howards.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: blue;
+} */
+
+#principal {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+#board {
+  display: flex;
+}
+
+
+svg g {
+  fill: white;
+  fill-opacity: 0.6;
+}
+
+svg g:hover {
+  fill: white;
+  fill-opacity: 0.3;
+}
+svg g:hover text {
+  fill-opacity: 1;
+}
+
+svg g polygon {
+  stroke: white;
+  stroke-width: 0.2;
+  transition: fill-opacity .5s;
+}
+svg g text {
+  font-size: 0.22em;
+  fill: white;
+  fill-opacity: 0.7;
+  transition: fill-opacity .5s;
+}
+svg path {
+  fill:none;
+  stroke: #7be3f6;
+  stroke-width: 0.2em;
+  stroke-opacity: 0.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#pat-1 {
+    background-size: cover;
+} 
+
+
+
+
